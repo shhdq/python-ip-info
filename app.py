@@ -5,6 +5,7 @@ import ipapi
 hostname = socket.gethostname()
 IPAddr = socket.gethostbyname(hostname)
 
+# free api key
 ipapi.location(
     ip=hostname, key='03ced33cda2d18dec5db6cc954efd92e', field='city')
 
